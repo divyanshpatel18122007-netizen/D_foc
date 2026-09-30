@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple HTML App</title>
+</head>
+
+<body>
+
+    <h1>My Simple Application</h1>
+
+    <p>Click the button below:</p>
+
+    <button onclick="showMessage()">Click Me</button>
+
+    <p id="message"></p>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").innerHTML =
+                "Hello! Welcome to my application.";
+        }
+    </script>
+
+</body>
+</html>
